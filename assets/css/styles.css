@@ -365,6 +365,29 @@ html[lang="fa"] .lp-body, [dir="rtl"] .lp-body{ text-align:right; }
 .contact-explanation{font-size:.88rem;margin-top:16px}
 .contact a:not(.btn){color:var(--brand-200);overflow-wrap:anywhere}
 :focus-visible{outline:3px solid var(--brand-700);outline-offset:4px}
+[hidden]{display:none!important}
+.hero-check-link,.service-link{color:var(--brand-700);font-weight:650;text-decoration:underline;text-underline-offset:4px}
+.hero-check-link{align-self:center;padding:10px 0}
+.service-link{display:inline-block;margin-top:12px}
+.ai-section{background:var(--brand-50);border-block:1px solid var(--brand-100)}
+.ai-section .section-head{max-width:760px}
+.ai-number{display:block;font-size:1.75rem;font-weight:750;color:var(--brand-600);margin-bottom:14px}
+.ai-steps{display:flex;flex-wrap:wrap;gap:12px 34px;counter-reset:ai-step;padding:0;margin:30px 0 20px;list-style:none}
+.ai-steps li{display:flex;gap:10px;align-items:center;color:var(--ink-700);font-weight:600}
+.ai-steps li::before{counter-increment:ai-step;content:counter(ai-step);background:var(--brand-600);color:white;width:28px;height:28px;display:grid;place-items:center;border-radius:50%;flex:none}
+.ai-note{max-width:850px;color:var(--ink-600);font-size:.94rem;margin-bottom:24px}
+.project-check-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px;align-items:start}
+.project-check-grid .card{min-width:0}
+.project-check-grid .select{white-space:normal;min-height:48px}
+.project-check-grid .textarea{font-size:1rem}
+.check-output{background:var(--brand-50);border-color:var(--brand-100)}
+.check-output h3{margin:10px 0}
+.check-price{font-size:1.7rem;font-weight:750;color:var(--brand-700);margin:12px 0}
+.check-small{font-size:.82rem;color:var(--ink-600);line-height:1.65;margin:16px 0 0}
+.check-output .field{margin-top:22px}
+#check-brief{font-size:.85rem;line-height:1.65;min-height:210px}
+#check-result{scroll-margin-top:100px}
+@media(max-width:760px){.project-check-grid{grid-template-columns:minmax(0,1fr)}.ai-steps{flex-direction:column;gap:14px}.project-check-grid .contact-actions>.btn{width:100%}}
 @media(max-width:480px){.contact-actions>.btn{width:100%}.price-card .amount{font-size:1.85rem}}
 @media(max-width:600px){
   .nav{gap:8px}

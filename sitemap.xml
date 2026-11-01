@@ -58,6 +58,10 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://devpars.de/ki-integration-automatisierung/</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://devpars.de/blog/</loc>
     <changefreq>monthly</changefreq>
   </url>
